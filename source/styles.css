@@ -1,0 +1,70 @@
+
+@font-face {
+  font-family: 'MiFuentePersonalizada';
+  src: url('font_simon_lovely.otf') format('opentype'); /* Reemplaza con la ruta de tu archivo .otf */
+  }
+
+body {
+  font-family: 'MiFuentePersonalizada', sans-serif;
+  margin: 0;
+  padding: 0;
+  /* Establecer la imagen como fondo y repetirla */
+  background-image: url('cat.gif'); /* Cambia 'ruta/a/tu/imagen.jpg' por la ruta de tu imagen */
+  background-repeat: repeat;
+}
+
+.content {
+  /* Estilos para el contenido, centrado y con margen */
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.8); /* Fondo semitransparente para mejor legibilidad */
+  margin: 30px; /* Margen de 30px en todos los lados */
+  width: calc(100% - 60px); /* Ancho del contenido, considerando el margen de 30px en cada lado */
+  max-width: 800px; /* Ancho máximo del contenido */
+  margin-left: auto; /* Centrar el contenido */
+  margin-right: auto; /* Centrar el contenido */
+}
+
+/* Estilos para el div con el número */
+.number {
+  font-size: 72px; /* Tamaño de la fuente más grande */
+  color: #e7ad61; /* Cambio de color a naranja */
+  font-weight: bold; /* Texto en negrita */
+  text-align: center; /* Centrar el texto */
+  margin-bottom: 20px; /* Agregar espacio en la parte inferior */
+}
+
+/* Estilos para el div con la palabra */
+.word {
+  font-size: 36px; /* Tamaño de la fuente más grande */
+  color: #614c00; /* Cambio de color a azul steel */
+  text-align: center; /* Centrar el texto */
+}
+
+/* Estilos para el botón */
+.custom-button {
+  padding: 10px 20px; /* Padding para espacio interno */
+  font-size: 18px; /* Tamaño de la fuente */
+  background-color: #4CAF50; /* Color de fondo verde */
+  color: white; /* Color de texto blanco */
+  border: none; /* Sin borde */
+  border-radius: 5px; /* Bordes redondeados */
+  cursor: pointer; /* Cambio de cursor al pasar por encima */
+  margin-top: 20px; /* Margen superior */
+  display: block; /* Para que el botón se muestre como bloque y tome el ancho completo */
+  width: 200px; /* Ancho del botón */
+  margin-left: auto; /* Centrar el botón */
+  margin-right: auto; /* Centrar el botón */
+}
+
+.custom-button:hover {
+  background-color: #45a049; /* Cambio de color de fondo al pasar por encima */
+}
+
+/* Estilos generales para dispositivos móviles (ejemplo: hasta 600px de ancho) */
+@media screen and (max-width: 600px) {
+  /* Aquí puedes agregar estilos específicos para móviles */
+  body {
+    font-size: 16px; /* Tamaño de fuente más adecuado para pantallas pequeñas */
+  }
+  /* Otros estilos para adaptar tu diseño */
+}
