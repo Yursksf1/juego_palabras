@@ -1,5 +1,13 @@
 // Lista de palabras para elegir aleatoriamente
-const palabras = ['Perro', 'Gato', 'Casa', 'Sol', 'Árbol', 'Montaña'];
+const palabras = [
+  "moño", "linterna", "niña", "camisa", "marcador", "cereza", "vestido",
+  "manzana", "ojo", "vaso", "zapato", "globo", "mesa", "conejo", 
+  'Perro',
+   'Gato',
+   'Casa',
+   'Sol',
+   'Árbol',
+   'Montaña'];
 
 // Función para cambiar el contenido de los divs
 function cambiarContenido() {
